@@ -3,6 +3,8 @@ body, main {
 }
 body {
 	flex-direction: column;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:rgb(255, 255, 255);
 }
 main {
 	flex-direction: row;
@@ -10,10 +12,46 @@ main {
 }
 article {
 	flex: 2;
+	background-color:azure;
 }
 aside {
-	flex: 1
+	flex: 1;
+	background-color:bisque;
 }
 article aside {
 	overflow: auto;
+}
+header {
+	background-color:rgb(184, 184, 184);
+	margin: 0;
+	padding: 0;
+	position:relative;
+
+}
+header li {
+	display:inline;
+	text-align: left;
+}
+header li a:hover{
+	color: white;
+}
+h1{
+	font-size:xx-large;
+	Margin: 70px 0 40px;
+}
+th{
+	font-weight: bold;
+}
+footer{
+	padding: 5px;
+	background-color:burlywood;
+}
+footer p{
+	text-align: center;
+}
+footer a{
+	color:blueviolet;
+}
+footer a:hover{
+	color:honeydew;
 }
